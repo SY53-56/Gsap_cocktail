@@ -9,7 +9,8 @@ const titleSplit = SplitText.create("#about",{
 })
 const scroolTimeline = gsap.timeline({
     scrollTrigger:{
-        trigger:"#abouts"
+        trigger:"#abouts",
+		start:"top center"
     }
 }) 
 .from(titleSplit.words, {
@@ -19,7 +20,7 @@ const scroolTimeline = gsap.timeline({
   ease: "expo.out",
   stagger: 0.02
 })
-.FOR(".top-grid div, .bottom-grid div",{
+.from(".top-grid div, .bottom-grid div",{
 opacity:0,
 duration:1,
 ease:"power1.inOut",
