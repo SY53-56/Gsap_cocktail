@@ -7,6 +7,7 @@ import  Cocktails from './components/Cocktails'
 import Abouts from './components/Abouts'
 import Arts from './components/Arts'
 import Menu from './components/Menu'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
    <Abouts/>
    <Arts />
    <Menu />
+   <Contact/>
     </>
   )
 }
