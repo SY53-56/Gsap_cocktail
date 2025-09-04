@@ -6,17 +6,19 @@ import Hero from './components/Hero'
 import  Cocktails from './components/Cocktails'
 import Abouts from './components/Abouts'
 import Arts from './components/Arts'
+import Menu from './components/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
   
   return (
     <>
-    <Navbar/>
-    <Hero/>
-   < Cocktails/>
+    <Navbar />
+    <Hero />
+   < Cocktails />
    <Abouts/>
-   <Arts/>
+   <Arts />
+   <Menu />
     </>
   )
 }
